@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar custom view */
+@media screen and (min-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(137, 118, 214, 0.767);
+        border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #4318BF;
+    }
+}
